@@ -15,7 +15,20 @@ div > h1 {
   border-radius: 0.25rem;
   background-color: #df1212;
 }
+#decrease {
+  border: 2px solid transparent;
+  transition: transform 0.2s ease-in-out;
+}
+#decrease:hover {
+  background-color: #ad1717;
+}
+#decrease:focus {
+  outline: 10px solid transparent;
+  border-color: #dc3545;
+  transform: scale(1.1);
+}
 .reset {
+  font-size: 0.8rem;
   display: inline-block;
   color: white;
   border: 1px solid transparent;
@@ -24,6 +37,18 @@ div > h1 {
   height: 40px;
   border-radius: 0.25rem;
   background-color: #777575;
+}
+#reset {
+  border: 2px solid transparent;
+  transition: transform 0.2s ease-in-out;
+}
+#reset:hover {
+  background-color: #5f5e5e;
+}
+#reset:focus {
+  outline: 10px solid transparent;
+  border-color: #6c757d;
+  transform: scale(1.1);
 }
 .increase {
   display: inline-block;
@@ -34,4 +59,16 @@ div > h1 {
   height: 40px;
   border-radius: 0.25rem;
   background-color: #048604;
+}
+#increase {
+  border: 2px solid transparent;
+  transition: transform 0.2s ease-in-out;
+}
+#increase:hover {
+  background-color: #066606;
+}
+#increase:focus {
+  outline: 10px solid transparent;
+  border-color: #198754;
+  transform: scale(1.1);
 }
